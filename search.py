@@ -9,6 +9,8 @@ def search(document):
                 search_by_name(document)
             case "color":
                 search_by_color(document)
+            case "back":
+                searching = False
 
 def search_by_name(document):
     card_name = input("Type in the name of the card: ")
